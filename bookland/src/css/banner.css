@@ -40,8 +40,56 @@ body {
     background: #EEE;
 }
 
+<<<<<<< HEAD
 
 
+=======
+/* .gallery-cell {
+    width: 100;
+    height: 640.76px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.gallery-cell img {
+    width: 313px;
+    height: 442.15px;
+    background: #C4C4C4;
+    border: 4px solid #FFFFFF;
+    border-radius: 6px;
+}
+
+.galleryTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin: 20px 0px 16px 0px;
+}
+
+.galleryPrice {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #EAA451;
+}
+ */
+>>>>>>> fb2ac95 (feature/#757/login)
 .gallery-cell button {
     width: 229px;
     height: 60px;
@@ -58,24 +106,43 @@ body {
     line-height: 27px;
     color: #FFFFFF;
 }
+<<<<<<< HEAD
 
 
 .sliceCenter{
     width: 50%;
     margin: 0 auto;
+=======
+.sliceCenter{
+    width: 10%;
+    height: 770px;
+    margin: 0 auto;
+ 
+>>>>>>> fb2ac95 (feature/#757/login)
 }
 .gallery-cell img{
     width: 313px;
     height: 442.15px;
+<<<<<<< HEAD
     border: 4px solid #FFFFFF;
     border-radius: 6px;
 }
 .gallery-cell {
     width: 100%;
+=======
+}
+.slick-track{
+    width: 100% !important;
+}
+.gallery-cell {
+    width: 100%;
+    height: 640.76px;
+>>>>>>> fb2ac95 (feature/#757/login)
     margin-right: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
 }
 .galleryTitle {
     width: 200px;
@@ -132,4 +199,6 @@ body {
 .prev{
     left:0%;
     top: 50%;
+=======
+>>>>>>> fb2ac95 (feature/#757/login)
 }
