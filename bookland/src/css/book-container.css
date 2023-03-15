@@ -119,6 +119,9 @@
 .sale-container {
     margin-top: 26px;
 }
+.sale-container button {
+    margin-left: 5px;
+}
 
 .book-right button {
     font-family: 'Open Sans';
