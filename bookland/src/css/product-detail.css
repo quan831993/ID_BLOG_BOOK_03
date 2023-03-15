@@ -1,0 +1,165 @@
+.product-detail {
+    margin: 76px 90px 20px 90px;
+    display: flex;
+
+}
+
+.product-detail-left td {
+    height: 75px;
+    align-items: center;
+    border-bottom: 1px solid #C4C4C4;
+
+}
+
+.content {
+    display: flex;
+    /* justify-content: space-between; */
+    border-bottom: 1px solid #C4C4C4;
+
+}
+
+.content-left {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #11142D;
+    /* width: 200px; */
+    border-bottom: 3px solid #EAA451 !important;
+}
+
+.content-right {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #AAAAAA;
+    padding-left: 90px;
+    /* width: 400px; */
+}
+
+.p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #11142D;
+}
+
+.p-info {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #11142D;
+    padding-left: 90px;
+}
+
+.p-info button {
+    width: 100px;
+    height: 41px;
+    margin: 5px;
+    background: #EAA451;
+    border-radius: 6px;
+}
+
+.product-detail-right {
+    /* display: flex;
+    flex-direction: column;
+    text-align: center; */
+    margin-left: 30px;
+}
+
+.product-detail-right p {
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 75px;
+    color: #11142D;
+}
+
+.book {
+    width: 345px;
+    height: 196px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.book img {
+    width: 140px;
+    height: 196px;
+    background: #C4C4C4;
+    border-radius: 6px;
+}
+
+.book-info {
+    margin-left: 20px;
+
+}
+
+#relatedTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #11142D;
+    height: 29px;
+}
+
+#relatedTags {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #EAA451;
+    height: 29px;
+}
+
+.related-price {
+    display: flex;
+}
+
+#relatedPrice {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #11142D;
+}
+
+#firstPrice {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #AAAAAA;
+    margin: 4px 0px 0px 5px;
+}
+
+.book button {
+    width: 175px;
+    height: 46px;
+    border: 1px solid #EAA451;
+    box-shadow: 0px 25px 33px rgba(234, 164, 81, 0.12);
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EAA451;
+    background-color: #FFFFFF;
+}

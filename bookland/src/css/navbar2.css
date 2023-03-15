@@ -29,6 +29,7 @@
     top: 50%;
     transform: translate(0%, 50%);
     background-color: #F8F8F8;
+    outline: none;
 
 }
 
@@ -39,7 +40,7 @@
     font-weight: 700;
     line-height: 60px;
     left: 50px;
-
+    
     font-family: 'Poppins';
     font-style: normal;
 
@@ -60,6 +61,7 @@
     width: 506px;
     height: 60px;
     font-size: large;
+
 }
 
 .fa-magnifying-glass {
