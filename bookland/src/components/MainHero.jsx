@@ -53,9 +53,9 @@ function MainHero() {
                         sit, perferendis fugit explicabo qui vitae laboriosam, possimus dolore saepe aut error tenetur!
                         Unde dolorem reprehenderit voluptatibus commodi.</div>
                     <div className="priceContainer">
-                        <span className="price">$9.5</span>
-                        <span className="defaultPrice">$12.0</span>
-                        <button className="sale">20% OFF</button>
+                        <span id="price1">$9.5</span>
+                        <span id="defaultPrice1">$12.0</span>
+                        <button id="sale1">20% OFF</button>
                     </div>
                     <div className="btnContainer">
                         <button className="buyNow">Buy Now</button>

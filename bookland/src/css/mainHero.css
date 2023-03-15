@@ -91,10 +91,10 @@
 }
 
 .priceContainer {
-    margin-top: 20px;
+    margin-top: 7px;
 }
 
-.price {
+#price1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -103,7 +103,7 @@
     color: #FFFFFF;
 }
 
-.defaultPrice {
+#defaultPrice1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -112,13 +112,13 @@
     text-decoration-line: line-through;
     margin-left: 10px;
     color: #5F5C9D;
+    margin-top: 11px;
 }
 
-.sale {
-    position: absolute;
+#sale1 {
     width: 81px;
     height: 32px;
-    margin-top: 15px;
+    margin-top: -3px;
     margin-left: 15px;
     background-color: #FF1E6F;
     color: #FFFFFF;
