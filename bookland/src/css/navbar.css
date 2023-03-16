@@ -34,6 +34,7 @@
 
 }
 
+
 .menus {
     height: 60px;
     width: 156px;
@@ -100,4 +101,19 @@
     font-size: large;
     font-weight: 700;
     cursor: pointer;
+}
+
+
+@media screen and (max-width:768px){
+    .searchBox{
+        display: none !important;
+        display: none !important;
+    }
+    .loginBtn{
+        font-size: small;
+    }
+    .signupBtn{
+        font-size: small;
+    }
+
 }

@@ -1,6 +1,7 @@
 .mainHero {
     height: 940px;
     background-color: #1D195A;
+    width: 100%;
 
 }
 
@@ -196,6 +197,7 @@
     width: 109.49px;
     height: 20.62px;
 }
+
 .product1 {
     width: fit-content;
     height: 149px;
@@ -321,4 +323,10 @@
 .marquee {
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .mainFooter {
+        margin-top: 40px !important;
+    }
 }

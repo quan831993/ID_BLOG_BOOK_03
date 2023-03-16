@@ -5,19 +5,17 @@
 }
 
 .subsTitle {
-    height: 366px;
     margin-left: 90px;
     display: flex;
     align-items: center;
+    width: 40%;
 }
 
 .subTit {
-    height: 110px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 55px;
     color: #FFFFFF;
 }
 
@@ -50,4 +48,40 @@
     border-radius: 5px;
     border: 1px solid #FFFFFF;
     margin-left: -166px;
+}
+
+@media screen and (max-width: 768px) {
+    .subsTitle {
+        margin-left: 25px;
+    }
+    .subTit{
+        font-size: 20px;
+    }
+    .subscribe {
+        height: 200px;
+        background: #3B2F4A;
+        display: flex;
+    }
+    .searchSubs{
+        margin-right: 25px;
+    }
+    .searchSubs input {
+        height: 50px;
+        width: 300px;
+        padding-right: 100px;
+    }
+    .searchSubs button {
+        width: 100px;
+        height: 50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #EAA451;
+        border-radius: 5px;
+        border: 1px solid #FFFFFF;
+        margin-left: -100px;
+    }
 }
