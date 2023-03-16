@@ -69,14 +69,14 @@ function Footer() {
                                 <div className="footer2Content">
                                     <i className="fa-solid fa-location-dot" />
                                     <span>832  Thompson Drive, San Fransisco
-                                        <br /> CA 94107, United States</span>
+                                         CA 94107, United States</span>
                                 </div>
                                 <div className="footer2Content">
                                     <i className="fa-solid fa-phone" />
                                     <span>+123 345123 556</span>
                                 </div>
                                 <div className="footer2Content">
-                                    <i className="fa-solid fa-envelope" />
+                                    <i className="fa-solid fa-envelope" id="footerMail"/>
                                     <span>support@bookland.id</span>
                                 </div>
                             </div>

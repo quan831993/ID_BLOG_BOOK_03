@@ -88,6 +88,17 @@ function BookOnSale() {
         centerPadding: 0,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            }
+        ]
     };
     return (
         <div className="bookOnSaleContainer">

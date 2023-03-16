@@ -43,3 +43,19 @@
 
     color: #535353;
 }
+
+@media screen and (max-width: 768px) {
+    .storeContainer{
+        margin: 40px 25px 0px 25px;
+    }
+    .storeImg {
+        height: 60px;
+        width: 60px;
+    }
+    .storeNumber {
+        font-size: 30px;    
+    }
+    .storeStt{
+        font-size: 15px;
+    }
+}

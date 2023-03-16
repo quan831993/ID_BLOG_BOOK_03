@@ -13,3 +13,13 @@
     justify-content: space-between;
 
 }
+@media screen and (max-width: 768px) {
+    .brandLogos{
+        width: 100%;
+    }
+    .clientLogo img{
+        width: 40%;
+        height: 40%;
+        margin-right: 5px;
+    }
+}
