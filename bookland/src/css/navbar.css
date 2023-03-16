@@ -107,6 +107,7 @@
 @media screen and (max-width:768px){
     .searchBox{
         display: none !important;
+        display: none !important;
     }
     .loginBtn{
         font-size: small;
