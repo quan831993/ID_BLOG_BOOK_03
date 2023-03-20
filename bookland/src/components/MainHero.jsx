@@ -1,4 +1,5 @@
-import "../css/mainHero.css"
+import "../css/mainHero.css";
+import { Link } from "react-router-dom"
 function MainHero() {
     return (
         <div className="mainHero">
@@ -58,8 +59,12 @@ function MainHero() {
                         <button id="sale1">20% OFF</button>
                     </div>
                     <div className="btnContainer">
-                        <button className="buyNow">Buy Now</button>
-                        <button className="seeDetails">See details</button>
+                        <Link to="/checkout">
+                            <button className="buyNow">Buy Now</button>
+                        </Link>
+                        <Link to="/detail">
+                            <button className="seeDetails">See details</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="mainFooter">

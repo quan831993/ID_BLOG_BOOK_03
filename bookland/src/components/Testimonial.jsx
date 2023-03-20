@@ -59,12 +59,23 @@ function Testimonial() {
         centerPadding: 0,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            }
+        ]
     };
     return (
         <div className="testimonialsContainer">
             <p className="testimonials">Testimanials</p>
             <div className="testimonialSlice">
-                <Slider {...setting}>
+                <Slider {...setting} className="s">
                     {data.map((item) => {
                         return (
                             <div className="testimonialItem">

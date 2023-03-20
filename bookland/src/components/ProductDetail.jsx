@@ -1,5 +1,15 @@
-import "../css/product-detail.css"
+import "../css/product-detail.css";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 function ProductDetail() {
+    const {id} = useParams()
+    const [book, setBook] = useState([]);
+    useEffect(() => {
+        fetch(`http://localhost:3000/book/${id}`)
+            .then((response) => response.json())
+            .then((data) => setBook(data));
+    }, [id])
+    console.log(book.tags);
     return (
         <div className="product-detail">
             <div className="product-detail-left">
@@ -13,41 +23,40 @@ function ProductDetail() {
                     <tbody>
                         <tr>
                             <td className="p">Book Title</td>
-                            <td className="p-info">Think and Grow Rich</td>
+                            <td className="p-info">{book.name}</td>
                         </tr>
                         <tr>
                             <td className="p">Author</td>
-                            <td className="p-info">Napoleon Rich</td>
+                            <td className="p-info">{book.author}</td>
                         </tr>
                         <tr>
                             <td className="p">ISBN</td>
-                            <td className="p-info">121341381648 (ISBN13: 121341381648)</td>
+                            <td className="p-info">{book.ISBN}</td>
                         </tr>
                         <tr>
                             <td className="p">Ediiton Language</td>
-                            <td className="p-info">English</td>
+                            <td className="p-info">{book.editionLanguage}</td>
                         </tr>
                         <tr>
                             <td className="p">Book Format</td>
-                            <td className="p-info">Paperback, 450 Pagesh</td>
+                            <td className="p-info">{book.format}</td>
                         </tr>
                         <tr>
                             <td className="p">Date Published</td>
-                            <td className="p-info">August 10th 2019</td>
+                            <td className="p-info">{book.year}</td>
                         </tr>
                         <tr>
                             <td className="p">Publisher</td>
-                            <td className="p-info">Wepress Inc.</td>
+                            <td className="p-info">{book.publisher}</td>
                         </tr>
                         <tr>
                             <td className="p">Tags</td>
                             <td className="p-info">
-                                <button>Drama</button>
-                                <button>Adventure</button>
-                                <button>Survival</button>
-                                <button>Biography</button>
-                                <button>Trending2020</button>
-                                <button>Bestseller</button>
+                                {book?.tags?.map((data)=> {
+                                    return(
+                                        <button>{data}</button>
+                                    )
+                                })}
                             </td>
                         </tr>
                     </tbody>

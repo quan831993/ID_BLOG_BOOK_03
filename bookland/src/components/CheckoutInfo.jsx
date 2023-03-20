@@ -1,7 +1,8 @@
 import "../css/checkoutInfo.css"
 function CheckoutInfo() {
     return(
-        <div className="checkoutInfo">
+        <div >
+        <form action="" className="checkoutInfo">
         <div className="checkoutLeft">
           <p>Buyer Info</p>
           <div className="checkout1">
@@ -16,8 +17,8 @@ function CheckoutInfo() {
           </div>
           <div className="checkout2">
             <div className="info">
-              <label htmlFor="email">Email Address</label>
-              <input type="text" id="email" />
+              <label htmlFor="email-adress">Email Address</label>
+              <input type="text" id="email-adress" />
             </div>
             <div className="info">
               <label htmlFor="phone">Mobile Phone Number</label>
@@ -98,6 +99,9 @@ function CheckoutInfo() {
             <button className="placeOrder">PLACE ORDER</button>
           </div>
         </div>
+
+
+        </form>
       </div>
     )
 }

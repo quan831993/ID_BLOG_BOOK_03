@@ -1,7 +1,7 @@
 .product-detail {
     margin: 76px 90px 20px 90px;
     display: flex;
-
+    justify-content: space-between;
 }
 
 .product-detail-left td {
@@ -11,12 +11,7 @@
 
 }
 
-.content {
-    display: flex;
-    /* justify-content: space-between; */
-    border-bottom: 1px solid #C4C4C4;
 
-}
 
 .content-left {
     font-family: 'Poppins';
@@ -167,3 +162,101 @@
     color: #EAA451;
     background-color: #FFFFFF;
 }
+
+
+ @media screen and (max-width: 768px) {
+    .product-detail {
+        margin: 50px 25px 20px 25px;
+        display: block;
+    }
+    .product-detail-left{
+        width: 100%;
+        margin-right: 25px;
+    }
+
+    
+    .product-detail-left td {
+        height: 75px;
+        align-items: center;
+        border-bottom: 1px solid #C4C4C4;
+    
+    }
+    
+    .content-left {
+        width: 20%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        color: #11142D;
+        border-bottom: 3px solid #EAA451 !important;
+    }
+    
+    .content-right {
+        display: flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        color: #AAAAAA;
+        padding-left: 90px;
+        width: 80%;
+        
+    }
+    
+    .p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        color: #11142D;
+        width: 20%;
+    }
+    
+    .p-info {
+        display: flex;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        color: #11142D;
+        padding-left: 90px;
+        width: 80%;
+    }
+    
+    .p-info button {
+        width: 100px;
+        height: 41px;
+        margin: 5px;
+        background: #EAA451;
+        border-radius: 6px;
+    }
+    
+    .product-detail-right {
+        /* display: flex;
+        flex-direction: column;
+        text-align: center; */
+        margin-left: 30px;
+    }
+    
+    .product-detail-right p {
+        height: 75px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 75px;
+        color: #11142D;
+    }
+    
+
+    .product-detail-left table{
+        border: 1px solid red;
+        width: 20% !important;
+    }
+   
+ }

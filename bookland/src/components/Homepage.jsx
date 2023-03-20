@@ -10,15 +10,15 @@ import Subscrible from "./Subscrible";
 function Homepage() {
     return (
         <>
-        <Navbar/>
-        <MainHero/>
-        <BrandLogo/>
-        <Banner/>
-        <Choose/>
-        <BookOnSale/>
-        <StoreContainer/>
-        <Subscrible/>
-        <Footer/>
+            <Navbar />
+            <MainHero />
+            <BrandLogo />
+            <Banner />
+            <Choose />
+            <BookOnSale />
+            <StoreContainer />
+            <Subscrible />
+            <Footer />
         </>
     )
 }

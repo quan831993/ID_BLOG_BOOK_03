@@ -1,0 +1,83 @@
+{
+    "book": [
+        {
+            "id": 1,
+            "name": "Think and Grow Rich",
+            "author": "Napoleon Rich",
+            "price": 15.63,
+            "originPrice": 16.99,
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem",
+            "publisher": "Printarea Studios",
+            "year": 2019,
+            "sale": 2,
+            "reviewer": 235,
+            "like": 456,
+            "editionLanguage": "English",
+            "format": "Paperback, 450 Pagesh",
+            "tags": ["Drama","Adventure", "Survival", "Biography", "Trending 2020", "Best Saler"],
+            "img":  "https://res.cloudinary.com/dqccfamas/image/upload/v1679028984/quan/71ZA_vKnFRL_xpupas.jpg",
+            "rate": 7.9,
+            "ISBN": "121341381648"
+
+        },
+        {
+            "id": 2,
+            "name": "Harry Potter",
+            "author": "J. K. Rowling",
+            "price":  77.5,
+            "originPrice": 154.99,
+            "desc": "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).",
+            "publisher": "Bloomsbury",
+            "year": 1997,
+            "sale": 50,
+            "reviewer": 235,
+            "like": 456,
+            "editionLanguage": "English",
+            "format": "Paperback Box Set (Books 1-7)",
+            "tags": ["Drama","Adventure", "Fantasy", "Fiction"],
+            "img": "https://res.cloudinary.com/dqccfamas/image/upload/v1679028984/quan/710ESoXqVPL._AC_UF1000_1000_QL80__ms82uj.jpg",
+            "rate": 8.3,
+            "ISBN": "0747532745"
+
+        },
+        {
+            "id": 3,
+            "name": "Twilight",
+            "author": "Stephenie Meyer",
+            "price": 70,
+            "originPrice": 114,
+            "desc": "Twilight is a series of four fantasy romance novels, two companion novels, and one novella written by American author Stephenie Meyer. Released annually from 2005 through 2008, the four novels chart the later teen years of Bella Swan, a girl who moves to Forks, Washington, from Phoenix, Arizona and falls in love with a 104-year-old vampire named Edward Cullen. The series is told primarily from Bella's point of view, with the epilogue of Eclipse and the second part of Breaking Dawn being told from the viewpoint of character Jacob Black, a werewolf.",
+            "publisher": "Little, Brown and Company",
+            "year": 2005,
+            "sale": 60,
+            "reviewer": 235,
+            "like": 456,
+            "editionLanguage": "English",
+            "format": "Paperback Box Set (Books 1-5)",
+            "tags": ["Fantasy", "Romance", "Fiction"],
+            "img": "https://res.cloudinary.com/dqccfamas/image/upload/v1679028984/quan/615ZIxEDozL_wxqbnq.jpg",
+            "rate": 4.3,
+            "ISBN": "0316015849"
+
+        },
+        {
+            "id": 3,
+            "name": "Norwegian Wood",
+            "author": "Murakami Haruki",
+            "price": 13.99,
+            "originPrice": 51.99,
+            "desc": "Toru, a quiet and preternaturally serious young college student in Tokyo, is devoted to Naoko, a beautiful and introspective young woman, but their mutual passion is marked by the tragic death of their best friend years before.  Toru begins to adapt to campus life and the loneliness and isolation he faces there, but Naoko finds the pressures and responsibilities of life unbearable.  As she retreats further into her own world, Toru finds himself reaching out to others and drawn to a fiercely independent and sexually liberated young woman.",
+            "publisher": "Birnbaum trans.",
+            "year": 1989,
+            "sale": 66,
+            "reviewer": 235,
+            "like": 456,
+            "editionLanguage": "English",
+            "format": "400 (UK paperback)",
+            "tags": ["Fiction", "Romance"],
+            "img": "https://res.cloudinary.com/dqccfamas/image/upload/v1679028984/quan/d018898304c583e88b1e4058d08423f3_tnm5wh.jpg",
+            "rate": 7.9,
+            "ISBN": "1860468187"
+        }
+    ]
+}
